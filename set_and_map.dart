@@ -30,6 +30,10 @@ void main(){
   friendIds.add('id4');
   friendIds.add('id2'); // khong them duoc vi da ton tai
 // kiem tra sinh vien
+bool isFriend = friendIds.contains('id3'); // true
+// de xuat
+Set<String> suggestedFriends = {'id5', 'id6', 'id1'};
+
 
 
 
