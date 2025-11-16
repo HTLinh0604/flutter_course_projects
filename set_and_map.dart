@@ -1,4 +1,9 @@
 void main(){
+  /*
+  - set là tap hop ca phan tu ko trung lap
+  - ko co thu tu xac dinh
+  - moi phan tu chi xuat hien 1 lan
+  */
   Set<String> set1 = {'apple', 'banana', 'cherry'};
   var set2 = <int>{1,2,3};
   Set<String> set3 =Set();
@@ -28,12 +33,12 @@ void main(){
   Set<String> friendIds = {'id1', 'id2', 'id3'};
   //them sinh vien moi
   friendIds.add('id4');
-  friendIds.add('id2'); // khong them duoc vi da ton tai
+  friendIds.add('id1'); // khong them duoc vi da ton tai
 // kiem tra sinh vien
 bool isFriend = friendIds.contains('id3'); // true
 // de xuat
 Set<String> suggestedFriends = {'id5', 'id6', 'id1'};
-
+var newFriends  suggestedFriends.difference(friendIds); 
 
 
 
