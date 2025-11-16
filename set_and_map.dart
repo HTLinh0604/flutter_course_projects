@@ -38,7 +38,7 @@ void main(){
 bool isFriend = friendIds.contains('id3'); // true
 // de xuat
 Set<String> suggestedFriends = {'id5', 'id6', 'id1'};
-var newFriends  suggestedFriends.difference(friendIds); 
+var newFriends = suggestedFriends.difference(friendIds); 
 
 
 
