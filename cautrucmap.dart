@@ -10,6 +10,19 @@ void main(){
     'name':'Alice',
     'age':30,
     'isStudent':true,
-    
+    'address': 'hcm'
   };
+
+  var user2 = <String, dynamic>{
+    'name':'Bob',
+    'age':25,
+    'address':'hn'
+  };
+  Map<int, String > numbers ={};
+  var emptyMap = Map<String, int>();
+
+  user1['email']='3Djy6@example.com';
+  user1['age']=31; // cap nhat gia tri
+  user1.putIfAbsent('phone', () => '0123456789'); // them key neu khong ton tai (put ifAbsent)
+
 }
