@@ -35,5 +35,8 @@ void main(){
   //kiem tra
   print(runes1.isEmpty);
   print(runes1.isNotEmpty);
-
+  // xu ly emoji trong ung dung chat
+  // hien thi ky tu dac biet
+  // tao cac bieu tuong danh gia
+  // xu ly van ban da ngon ngu co ky tu dac biet
 }
