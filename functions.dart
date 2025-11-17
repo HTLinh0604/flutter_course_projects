@@ -16,7 +16,13 @@ double tinhtong (var a, double b, double c){
 
 //  su dung rut gon "=>"
 double tinhtong1 (var a, double b, double c) => a +b +c;
+// => expression la cach viet gon cua return 
 
+/*
+luu y: chi co bieu thuc (expression) dung dang sau =>, khong ap dung cau lenh statements
+vi du: ta khong the if statement dung sau => duoc. tuy nhien co the su dung toan tu 3 ngoi:
+condition ? expr1: expr2
+*/
 
 
 // ham main
