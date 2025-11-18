@@ -31,20 +31,38 @@ String createFullName({String ho='', String chulot='', String ten=''}){
   return ho +" " + chulot+" "+ ten;
 }
 
+//tham so tuy chon
+
+double sum(double a , [double? b, double? c, double? d]){
+  var result = a ;
+  result += (b!=null)?b:0;
+  result += (c!=null)?c:0;
+  result += (d!=null)?d:0;
+  return result;
+}
+
+
 // ham main
 void main(){
   print('hello world');
   var x = tinhtong(1,10,100);
-  print(x);
+  // print(x);
 
   var y = tinhtong1(1, 10, 100);
-  print(y);
+  // print(y);
 
   var fn = createFullName(ho :'Huynh',chulot: 'Thai',ten: 'Linh');
-  print(fn);
+  // print(fn);
 
   var fn1 = createFullName(ten: 'Linh', chulot: 'Thai', ho :'Huynh');
-  print(fn1);
+  // print(fn1);
 
+  var fn2 = createFullName(chulot: 'Thai',ten: 'Linh');
+  // print(fn2);
+
+  print(sum(10));
+  print(sum(10,20));
+  print(sum(10,20,30));
+  print(sum(10,20,30,40));
 }
 
