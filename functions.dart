@@ -25,6 +25,12 @@ condition ? expr1: expr2
 */
 
 
+// ham voi ten cua tham so 
+// khi goi 1 ham ta co truyen gia tri thong qua ten bien
+String createFullName({String ho='', String chulot='', String ten=''}){
+  return ho +" " + chulot+" "+ ten;
+}
+
 // ham main
 void main(){
   print('hello world');
@@ -33,5 +39,12 @@ void main(){
 
   var y = tinhtong1(1, 10, 100);
   print(y);
+
+  var fn = createFullName(ho :'Huynh',chulot: 'Thai',ten: 'Linh');
+  print(fn);
+
+  var fn1 = createFullName(ten: 'Linh', chulot: 'Thai', ho :'Huynh');
+  print(fn1);
+
 }
 
