@@ -41,6 +41,10 @@ double sum(double a , [double? b, double? c, double? d]){
   return result;
 }
 
+// ham an danh
+
+
+
 
 // ham main
 void main(){
@@ -64,5 +68,7 @@ void main(){
   print(sum(10,20));
   print(sum(10,20,30));
   print(sum(10,20,30,40));
-}
 
+  var ham = (var a, var b) => a+b;
+  print(ham(10,20));
+}
