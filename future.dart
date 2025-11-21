@@ -27,6 +27,15 @@ void  hamchinh1(){
 }
 
 
+void hamchinh2() async{
+  print('bat dau tai');//1
+  Future<String> f = taidulieu();
+  String ketqua = await f;
+  print('ketqua: $ketqua');//2
+  print('tiep tuc viec khac');//3
+}
+
+
 void main(){
-  hamchinh1();
+  hamchinh2();
 }
