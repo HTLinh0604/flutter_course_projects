@@ -27,7 +27,7 @@ class Point3 {
   // double? y = this.x; => error
 
   double? y;
-  late double? z =this.x;
+  late double? z =x;
 
   Point3(this.x, this.y, this.z);
 }
@@ -45,7 +45,7 @@ class Rectangle{
 
 @override
   String toString() {
-    return left.toString()+','+top.toString()+'   '+width.toString()+' '+height.toString();
+    return '$left,$top   $width $height';
   }
 
   @override

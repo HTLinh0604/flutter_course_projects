@@ -6,8 +6,8 @@ void main(){
   */
   Set<String> set1 = {'apple', 'banana', 'cherry'};
   var set2 = <int>{1,2,3};
-  Set<String> set3 =Set();
-  var set4 = Set<int>.from([1,2,2,3]);
+  Set<String> set3 ={};
+  var set4 = <int>{1,2,2,3};
 
   var set5 = {1,2,3};
   var set6= {3,4,5};
@@ -24,9 +24,9 @@ void main(){
   var mapped = set1.map((e) => e.toLowerCase()); // chuyen thanh chu thuong
 
   // xu ly tung phan tu
-  set1.forEach((element){
+  for (var element in set1) {
     print(element);
-  });
+  }
 
   // vi du 
   // quan ly danh sach sinh vien

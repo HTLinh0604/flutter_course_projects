@@ -27,7 +27,7 @@ class table extends product{
 void main(){
   product p = product(6000000, 1, 'phone'); // khai bao lop product (price, quantity, name)
 
-  product p1 = new table (7,6, 2000000, 1, 'ipad'); // khai bao lop table (width, height, price, quantity, name)
+  product p1 = table (7,6, 2000000, 1, 'ipad'); // khai bao lop table (width, height, price, quantity, name)
   p.showTotal();
   print('\n');
   p1.showTotal();

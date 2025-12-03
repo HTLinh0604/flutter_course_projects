@@ -1,12 +1,10 @@
 void main(){
   int x= 10;
-  if (x is! int){
-    print('day la ko 1 so');
-  }else if (x%2==0){
-    print('so chan');
-  }else{
-    print('so le');
-  }
+  if (x%2==0){
+  print('so chan');
+}else{
+  print('so le');
+}
 
   int thang = 8;
   switch(thang){

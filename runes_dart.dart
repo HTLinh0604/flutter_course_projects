@@ -28,9 +28,9 @@ void main(){
 
   // duyet qua tung diem ma
   runes1 = "xin chao cac ban!, toi la dev flutter".runes;
-  runes1.forEach((int rune){
+  for (var rune in runes1) {
     print('unicode: $rune, character: ${String.fromCharCode(rune)}');
-  });
+  }
 
   //kiem tra
   print(runes1.isEmpty);

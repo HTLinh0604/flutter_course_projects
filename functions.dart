@@ -28,7 +28,7 @@ condition ? expr1: expr2
 // ham voi ten cua tham so 
 // khi goi 1 ham ta co truyen gia tri thong qua ten bien
 String createFullName({String ho='', String chulot='', String ten=''}){
-  return ho +" " + chulot+" "+ ten;
+  return "$ho $chulot $ten";
 }
 
 //tham so tuy chon
@@ -69,6 +69,6 @@ void main(){
   print(sum(10,20,30));
   print(sum(10,20,30,40));
 
-  var ham = (var a, var b) => a+b;
+  ham(var a, var b) => a+b;
   print(ham(10,20));
 }

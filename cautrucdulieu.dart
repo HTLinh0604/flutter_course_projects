@@ -48,11 +48,11 @@ void main(){
   // cat va noi list
   var sublist = list4.sublist(1,3); // cat 1 sublist tu 1 den 3
   // print(sublist);
-  var str_joined=list4.join(","); // noi list thanh chuoi
+  var strJoined=list4.join(","); // noi list thanh chuoi
   // print(str_joined);
   // duyet cac phan tu trong list
-  list4.forEach((element){
+  for (var element in list4) {
     print(element);
-  });
+  }
   
 }

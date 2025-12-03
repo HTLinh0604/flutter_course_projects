@@ -19,7 +19,7 @@ void main(){
     'address':'hn'
   };
   Map<int, String > numbers ={};
-  var emptyMap = Map<String, int>();
+  var emptyMap = <String, int>{};
 
   user1['email']='3Djy6@example.com';
   user1['age']=31; // cap nhat gia tri
